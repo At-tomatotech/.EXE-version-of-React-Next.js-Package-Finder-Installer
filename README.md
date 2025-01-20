@@ -10,18 +10,12 @@ This script scans your project folder for package imports and generates a list o
 2. Select the root folder of your project when prompted.
 3. The script will scan all `.js`, `.jsx`, `.ts`, and `.tsx` files for package imports.
 4. A `packages.txt` file will be created in the selected folder, listing all identified packages.
-5. The script will install all the packages listed in `packages.txt` using `npm install`.
+5. Run `install_packages.bat` to install all the packages listed in `packages.txt` using `npm install`.
 
 ---
 
 ## Reminder
 If the directory you select contains multiple nested folders with React or Next.js projects, you must repeat this process for each folder individually.
-
----
-
-## Example Workflow
-1. Run `React-Next.js-Package-Finder-Installer.exe` and select the root folder of your project.
-2. And Wait until its done installing
 
 ---
 
